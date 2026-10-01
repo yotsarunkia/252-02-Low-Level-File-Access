@@ -1,0 +1,12 @@
+System programming in C is about control.
+Control over bytes, syscalls, memory, and time.
+
+This input is intentionally static so autograding can be deterministic.
+Students should produce identical output files for every test mode.
+
+Optimization idea:
+smaller block size -> less buffer memory, more read/write calls
+larger block size  -> more buffer memory, fewer read/write calls
+
+Low-level I/O practice matters in systems software.
+Measure first. Optimize second. Verify always.
